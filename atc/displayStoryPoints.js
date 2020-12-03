@@ -69,7 +69,7 @@ async function addStoryPointsToDom(numStoryPoints) {
     ""
   );
   firstChildClone.firstElementChild.lastElementChild.id = "story-points-val";
-  firstChildClone.firstElementChild.lastElementChild.textContent = numStoryPoints;
+  firstChildClone.firstElementChild.lastElementChild.textContent = numStoryPoints === undefined ? 'Undefined' : numStoryPoints;
   issueDetails.prepend(firstChildClone);
 
   let storyPointsValEl = document.getElementById("story-points-val");
@@ -113,9 +113,7 @@ async function makeGetRequest(currentJiraIssueKey) {
 async function runScript() {
   let currentJiraIssueKey = getCurrentJiraIssueKey();
   let currentStoryPoints = await makeGetRequest(currentJiraIssueKey);
-  if (currentStoryPoints > 0) {
-    await addStoryPointsToDom(currentStoryPoints);
-  }
+  await addStoryPointsToDom(currentStoryPoints);
 }
 
 (async function () {
