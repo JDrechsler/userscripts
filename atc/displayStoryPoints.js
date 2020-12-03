@@ -3,7 +3,7 @@
 // @namespace    https://atc.bmwgroup.net/
 // @version      0.1
 // @description  Display Story Points
-// @author       JDrechsler
+// @author       JDrechslerUS
 // @include      /https:\/\/atc\.bmwgroup\.net\/jira\/browse\/CHGFRWRDUS-\d+/
 // @grant        none
 // @require      file://C:\Scripts\displayStoryPoints.js
