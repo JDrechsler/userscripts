@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Display Story Points
 // @namespace    https://atc.bmwgroup.net/
-// @version      0.1
+// @version      0.2
 // @description  Display Story Points
 // @author       JDrechslerUS
 // @include      /https:\/\/atc\.bmwgroup\.net\/jira\/browse\/CHGFRWRDUS-\d+/
