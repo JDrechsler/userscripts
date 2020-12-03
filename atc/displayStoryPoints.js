@@ -6,6 +6,7 @@
 // @author       JDrechsler
 // @include      /https:\/\/atc\.bmwgroup\.net\/jira\/browse\/CHGFRWRDUS-\d+/
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/JDrechsler/userscripts/main/atc/displayStoryPoints.js
 // ==/UserScript==
 
 function getCurrentJiraIssueKey(){
